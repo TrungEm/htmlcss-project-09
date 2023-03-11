@@ -46,6 +46,10 @@ a {
     --active: var(--primary-color);
 }
 
+.text#active {
+    color: var(--primary-color);
+}
+
 /* ========== Header ========== */
 .header {
     background: #f9f9f9;
@@ -1093,4 +1097,107 @@ a {
 
 .trend_body li:nth-child(2) .info .price {
     margin: 0;
+}
+
+/* Pricing */
+.main .pricing {
+    margin-top: 182px;
+}
+
+.pricing .pri_content {
+    width: 1169.81px;
+    margin: 0 auto;
+}
+
+.pricing .pri_wrap {
+    position: relative;
+}
+
+.pricing .pri_heading {
+    width: 883px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing .pri_heading .title {
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 1.17;
+    color: #000000;
+}
+
+.pricing .pri_heading .nav_mini {
+    position: relative;
+    margin-top: 60px;
+    padding: 15px 24px 14px 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.pricing .pri_heading .nav_mini ul {
+    display: flex;
+    justify-content: center;
+    background: #f4f4f4;
+    border-radius: 7px;
+}
+
+/* .pricing .pri_heading .nav_mini::after {
+    position: absolute;
+    top: 16px;
+    transform: translateX(-50%);
+    content: "";
+    display: inline-block;
+    width: 836px;
+    height: 97px;
+    background: #e4e4e4;
+    filter: blur(30px);
+} */
+
+.pricing .pri_heading .nav_mini li {
+    position: relative;
+    z-index: 1;
+}
+
+.pricing .pri_heading .nav_mini a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.64;
+    color: #23254b;
+    display: inline-block;
+    padding: 20px 42.5px 21px;
+}
+
+.pricing .pri_heading .nav_mini li:nth-child(3) a {
+    position: relative;
+}
+
+.pricing .pri_heading .nav_mini li:nth-child(3) a::after {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    width: 39px;
+    height: 3px;
+    background: #23254b;
+    border-radius: 999px;
+    margin-top: 32px;
+}
+
+.pricing .pri_heading .nav_mini li:nth-child(4) a {
+    padding: 20px 43px 21px 49.5px;
+}
+
+.pricing .pri_heading .nav_mini li:nth-child(5) a {
+    margin-right: 5px;
+}
+
+.pricing .pri_wrap .bgr {
+    position: absolute;
+    width: 133.66px;
+    height: 129.75px;
+    background: url(../images/abstract-2.svg) center/cover;
 }
